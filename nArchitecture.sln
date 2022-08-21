@@ -7,15 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A1CAF4B-FDB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rentACar", "rentACar", "{5C7DF644-E471-44F1-B45E-CCCB99A9BE1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\rentACar\Application\Application.csproj", "{F707061E-5DF2-4D8B-B0C8-70B3481360D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\rentACar\Application\Application.csproj", "{F707061E-5DF2-4D8B-B0C8-70B3481360D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\rentACar\Domain\Domain.csproj", "{BA4DAB3A-6D95-4647-9397-AAC2C4C4E98F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\rentACar\Domain\Domain.csproj", "{BA4DAB3A-6D95-4647-9397-AAC2C4C4E98F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\rentACar\Infrastructure\Infrastructure.csproj", "{A74BC682-CB9F-4872-9372-6FE6519C853D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\rentACar\Infrastructure\Infrastructure.csproj", "{A74BC682-CB9F-4872-9372-6FE6519C853D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "src\rentACar\Persistence\Persistence.csproj", "{B0D1D926-597A-4741-8A79-D68D41834E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\rentACar\Persistence\Persistence.csproj", "{B0D1D926-597A-4741-8A79-D68D41834E21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "src\rentACar\WebAPI\WebAPI.csproj", "{7FD17596-8A41-4F71-8113-1DF254386A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\rentACar\WebAPI\WebAPI.csproj", "{7FD17596-8A41-4F71-8113-1DF254386A40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corePackages", "corePackages", "{7E27F07C-A7FA-48B4-94F8-6EBD668EB3E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +56,7 @@ Global
 		{A74BC682-CB9F-4872-9372-6FE6519C853D} = {5C7DF644-E471-44F1-B45E-CCCB99A9BE1E}
 		{B0D1D926-597A-4741-8A79-D68D41834E21} = {5C7DF644-E471-44F1-B45E-CCCB99A9BE1E}
 		{7FD17596-8A41-4F71-8113-1DF254386A40} = {5C7DF644-E471-44F1-B45E-CCCB99A9BE1E}
+		{7E27F07C-A7FA-48B4-94F8-6EBD668EB3E5} = {5A1CAF4B-FDB8-4645-83E9-38969A34CE68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68C3B9DB-756C-4E3F-9F04-4A6279E93ECC}
