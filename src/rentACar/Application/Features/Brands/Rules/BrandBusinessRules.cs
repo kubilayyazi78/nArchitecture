@@ -23,4 +23,9 @@ public class BrandBusinessRules
         }
     }
 
+    public void BrandShouldExistWhenRequested(Brand brand)
+    {
+        if (brand == null) throw new BusinessException("Requested brand does not exist");
+    }
+
 }
